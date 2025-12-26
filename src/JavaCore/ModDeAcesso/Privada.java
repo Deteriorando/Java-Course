@@ -1,4 +1,4 @@
-package Course.ModDeAcesso;
+package JavaCore.ModDeAcesso;
 
 public class Privada {
     private int numero;

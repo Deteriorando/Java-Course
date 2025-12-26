@@ -1,4 +1,4 @@
-package Course.Logica;
+package introducao.Logica;
 
 public class Basico {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package Course.Metodos;
+package JavaCore.Metodos;
 
-import Course.Metodos.Objects.Calculadora;
-import Course.Metodos.Objects.VarArgs1;
+import JavaCore.Metodos.Objects.Calculadora;
+import JavaCore.Metodos.Objects.VarArgs1;
 
 public class Test01 {
     public static void main(String[] args) { // <- aqui é um varArg, ou seja, um array de String.

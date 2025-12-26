@@ -1,4 +1,4 @@
-package Course.Classes;
+package JavaCore.Classes;
 
 public class Classes {
     //POO foi feito para mapear objetos da vida real

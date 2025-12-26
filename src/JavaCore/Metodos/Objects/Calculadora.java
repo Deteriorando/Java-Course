@@ -1,4 +1,4 @@
-package Course.Metodos.Objects;
+package JavaCore.Metodos.Objects;
 
 public class Calculadora {
     protected int result;

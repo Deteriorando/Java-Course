@@ -1,4 +1,4 @@
-package Course.Metodos;
+package JavaCore.Metodos;
 
 public class Metodos {
     private int a;

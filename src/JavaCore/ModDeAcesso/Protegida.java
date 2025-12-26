@@ -1,4 +1,4 @@
-package Course.ModDeAcesso;
+package JavaCore.ModDeAcesso;
 
 public class Protegida {
     protected int numero;

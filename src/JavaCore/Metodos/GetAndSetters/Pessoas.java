@@ -1,4 +1,4 @@
-package Course.Metodos.GetAndSetters;
+package JavaCore.Metodos.GetAndSetters;
 
 public class Pessoas {
     private String nome;

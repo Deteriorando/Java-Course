@@ -1,4 +1,4 @@
-package Course.Classes;
+package JavaCore.Classes;
 
 public class Pessoa {
     String nome = "Carlos";

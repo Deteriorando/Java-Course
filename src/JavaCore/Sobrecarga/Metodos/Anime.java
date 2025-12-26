@@ -1,4 +1,4 @@
-package Course.Sobrecarga.Metodos;
+package JavaCore.Sobrecarga.Metodos;
 
 public class Anime {
     private String nome;
