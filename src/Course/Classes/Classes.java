@@ -5,5 +5,8 @@ public class Classes {
 
     public static void main(String[] args) {
         System.out.println("Hello!");
+        Pessoa pessoa = new Pessoa();
+
+        System.out.println(pessoa.nome+ " " + pessoa.idade + " " + pessoa.sexo);
     }
 }
