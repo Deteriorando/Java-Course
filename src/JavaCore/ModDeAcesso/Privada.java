@@ -1,11 +1,9 @@
 package JavaCore.ModDeAcesso;
 
 public class Privada {
+    // Modificador privado ele é só pode ser usado no local somente
+
     private int numero;
-
-    private void registro(){
-
-    }
 
     public int getNumero() {
         return numero;

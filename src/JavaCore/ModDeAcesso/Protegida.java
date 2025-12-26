@@ -1,6 +1,8 @@
 package JavaCore.ModDeAcesso;
 
 public class Protegida {
+    // O modificador protegido ele é só pode ser usado entre classes que estiver no mesmo pacote.
+
     protected int numero;
 
     protected void registro(){
