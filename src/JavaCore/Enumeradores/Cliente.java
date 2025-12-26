@@ -2,11 +2,30 @@ package JavaCore.Enumeradores;
 
 public class Cliente {
     private String nome;
-    private String tipo;
+    private TipoCliente tipoCliente;
+    private TipoPagamento tipoPagamento;
 
-    public Cliente(String nome, String tipo) {
+    public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
         this.nome = nome;
-        this.tipo = tipo;
+        this.tipoCliente = tipoCliente;
+        this.tipoPagamento = tipoPagamento;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "nome='" + nome + '\'' +
+                ", tipoClienteInt=" + tipoCliente.getNomeRelatorio() +
+                ", tipoCliente=" + tipoCliente.getVALOR() +
+                '}';
+    }
+
+    public TipoCliente getTipoCliente() {
+        return tipoCliente;
+    }
+
+    public void setTipoCliente(TipoCliente tipoCliente) {
+        this.tipoCliente = tipoCliente;
     }
 
     public String getNome() {
@@ -17,11 +36,11 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getTipo() {
-        return tipo;
+    public TipoPagamento getTipoPagamento() {
+        return tipoPagamento;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setTipoPagamento(TipoPagamento tipoPagamento) {
+        this.tipoPagamento = tipoPagamento;
     }
 }
