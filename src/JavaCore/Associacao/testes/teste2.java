@@ -5,6 +5,8 @@ import JavaCore.Associacao.Futebol.Time;
 
 public class teste2 {
     public static void main(String[] args) {
+        // Associação unidirecional para muitos.
+
         Time time = new Time("Seleção Brasileira");
         Jogador jogador1 = new Jogador("Neymar");
 
