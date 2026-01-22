@@ -16,7 +16,7 @@ public abstract class Funcionario extends Pessoa {
     @Override
     public void imprime() {
         System.out.println("Imprimindo");
-        // Você só precisa sobrescrever uma vez quando o uma classe abstrata extender outra classe abstrata, dentro da classe abstrata
+        // Você só precisa sobrescrever uma vez quando uma classe abstrata extender outra classe abstrata, dentro da classe abstrata
     }
 
     @Override

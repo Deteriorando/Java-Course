@@ -11,6 +11,4 @@ public class Computador extends Produto{
     public double calcularImposto() {
         return this.valor * IMPOSTO_POR_CENTO;
     }
-
-
 }

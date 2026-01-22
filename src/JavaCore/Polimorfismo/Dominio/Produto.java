@@ -12,7 +12,6 @@ public abstract class Produto implements Taxacao {
     public String getNome() {
         return nome;
     }
-
     public double getValor() {
         return valor;
     }
