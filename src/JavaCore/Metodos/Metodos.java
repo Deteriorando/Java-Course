@@ -3,7 +3,7 @@ package JavaCore.Metodos;
 public class Metodos {
     private int a;
 
-    //Métodos que não retorna nenhum valor especifico
+    //Métodos que não retorna nenhum valor específico
     public void imprimir(){
         System.out.println("Ola!");
     }

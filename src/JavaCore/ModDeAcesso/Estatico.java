@@ -3,7 +3,7 @@ package JavaCore.ModDeAcesso;
 import JavaCore.ModDeAcesso.exemplos.Carro;
 
 public class Estatico {
-    // O modificador estático ele faz com que o atributo pertence a classe toda, compartilhando do mesmo valor a todos objetos existentes.
+    // O modificador estático ele faz com que o atributo pertence à classe toda, compartilhando do mesmo valor a todos os objetos existentes.
 
     protected static double valor = 250;
 

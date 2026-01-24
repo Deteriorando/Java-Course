@@ -5,8 +5,8 @@ public class Pessoas {
     private int Idade;
     private char sexo;
 
-    // get -> ele retorna(pega) parametros que são privados(private) ou protegidos(protected)
-    // setter -> ele seta(injeta, coloca) valores nos parametros, seja privado ou protegido;
+    // get -> ele retorna(pega) parâmetros que são privados(private) ou protegidos(protected)
+    // setter -> ele seta(injeta, coloca) valores nos parâmetros, seja privado ou protegido;
 
     public String getNome() {
         return nome;

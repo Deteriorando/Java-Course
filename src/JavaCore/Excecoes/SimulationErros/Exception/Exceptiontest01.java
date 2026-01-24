@@ -1,4 +1,4 @@
-package JavaCore.Exceções.SimulationErros.Exception;
+package JavaCore.Excecoes.SimulationErros.Exception;
 
 import java.io.File;
 import java.io.IOException;

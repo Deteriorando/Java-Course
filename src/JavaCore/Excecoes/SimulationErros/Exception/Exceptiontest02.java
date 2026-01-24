@@ -1,4 +1,4 @@
-package JavaCore.Exceções.SimulationErros.Exception;
+package JavaCore.Excecoes.SimulationErros.Exception;
 
 public class Exceptiontest02 {
     public static void main(String[] args) {

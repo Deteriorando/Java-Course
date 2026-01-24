@@ -1,4 +1,4 @@
-package JavaCore.Exceções.SimulationErros.StackOverflowError;
+package JavaCore.Excecoes.SimulationErros.StackOverflowError;
 
 public class ExempleError {
     public static void main(String[] args) {

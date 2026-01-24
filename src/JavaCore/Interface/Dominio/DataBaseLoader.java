@@ -1,10 +1,10 @@
 package JavaCore.Interface.Dominio;
 
-// quando trabalhamos com interface para extender até a interface usamos "implements"
-// Nas interfaces podemos também implementar mais de uma interface
+// quando trabalhamos com ‘interface’ para extender até a ‘interface’ usamos "implements"
+// Nas ‘interfaces’ podemos também implementar mais de uma ‘interface’
 public class DataBaseLoader implements DataLoader, DataRemover {
 
-    // É obrigatorio a implementação dos metodos da interface!
+    // É obrigatório a implementação dos métodos da ‘interface’!
     @Override
     public void load() {
         System.out.println("Carregando dados do Banco de dados...");
@@ -20,7 +20,7 @@ public class DataBaseLoader implements DataLoader, DataRemover {
         System.out.println("Checando permissões no banco de dados...");
     }
 
-    // Metodos estaticos sempre vão pertencer a classe, e não precisam ser sobrescritos.
+    // Métodos estáticos sempre vão pertencer à classe, e não precisam ser sobrescritos.
     public static void retrieveMaxDataSize(){
         System.out.println("Dentro do retrieveMaxDataSize na classe DataBaseLoader");
     }

@@ -1,7 +1,7 @@
 package JavaCore.ModDeAcesso;
 
 public class Publica {
-    // O modificador publico ele é acessivel em qualquer lugar.
+    // O modificador publico ele é acessível em qualquer lugar.
 
     public int numero;
 

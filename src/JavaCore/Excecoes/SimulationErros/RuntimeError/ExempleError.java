@@ -1,4 +1,4 @@
-package JavaCore.Exceções.SimulationErros.RuntimeError;
+package JavaCore.Excecoes.SimulationErros.RuntimeError;
 
 public class ExempleError {
     public static void main(String[] args) {
