@@ -17,6 +17,7 @@ public class Time {
         System.out.println(this.nome);
 
         if (Jogadores == null) return;
+
         for (Jogador j : Jogadores){
             System.out.println(j.getNome());
         }
