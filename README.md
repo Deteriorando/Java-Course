@@ -11,6 +11,5 @@ forma documentada e com exemplos fáceis de entender.
 
 **Inglês / English**
 - Java: https://dev.java/learn/
-- 
 
 A qualquer momento poderemos modificar as fontes, esteja avisado!
