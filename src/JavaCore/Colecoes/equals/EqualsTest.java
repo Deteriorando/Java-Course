@@ -12,7 +12,11 @@ public class EqualsTest {
         /* O que acontece se não sobrescrever o equals?
         * Toda comparação com equals() irá verificar, primeiro, se existe uma sobrescrição do mesmo em ambas as classes. Caso não haja em alguma delas,
         * o método padrão da classe Object será utilizado. E, no nosso caso, pode ser que os laptops sejam considerados iguais.
-        * */
+        * Uma outra limitação que ocorrerá caso o método não seja sobrescrito, é que não será possível utilizar o objeto como chave em uma tabela hashing.
+        * Ora, se o método não foi sobrescrito, não será possível encontrar um objeto X na minha tabela! A não ser que eu esteja utilizando o próprio X que
+        * foi inserido nela, já que o método equals da classe Object utiliza o comparador “ == “ para verificar se duas referências são iguais. Ou seja, caso
+        * tenhamos duas referências diferentes de um mesmo objeto, eles serão considerados diferentes.
+        */
 
         Smartphone s1 = new Smartphone("4ABS", "Motorola");
         Smartphone s2 = new Smartphone("4ABS", "Motorola");
