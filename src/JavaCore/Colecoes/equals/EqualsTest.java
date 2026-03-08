@@ -10,14 +10,21 @@ public class EqualsTest {
         // O equals() ele compara o conteúdo dos objetos.
 
         /* O que acontece se não sobrescrever o equals?
-        * Toda comparação com equals() irá verificar, primeiro, se existe uma sobrescrição do mesmo em ambas as classes. Caso não haja em alguma delas,
-        * o método padrão da classe Object será utilizado. E, no nosso caso, pode ser que os laptops sejam considerados iguais.
-        * Uma outra limitação que ocorrerá caso o método não seja sobrescrito, é que não será possível utilizar o objeto como chave em uma tabela hashing.
-        * Ora, se o método não foi sobrescrito, não será possível encontrar um objeto X na minha tabela! A não ser que eu esteja utilizando o próprio X que
-        * foi inserido nela, já que o método equals da classe Object utiliza o comparador “ == “ para verificar se duas referências são iguais. Ou seja, caso
-        * tenhamos duas referências diferentes de um mesmo objeto, eles serão considerados diferentes.
+        * 1 - O Java começa a comparar "Endereços", e não "Dados".
+        * Acontece que a classe que não tem o equals sobrescrito na classe, ela vai usar o equals da classe object.
+        * O equals da classe object compara endereços de mémoria e não o conteúdo dos dados que tem estão dentro dos atributos.
+        *
+        * 2 - Quebra total das coleções.
+        * Praticamente todas as coleções, dependem do equals para funcionarem de forma correta
+        * caso usamos o equals somente da classe object, poderemos ter erros silênciosos que podem ser
+        * horríveis de saber resolver.
+        *
+        * 3 - Métodos de busca que não funcionam
+        * Métodos de busca dependem 100% do equals para funcionarem.
         */
 
+
+        // exemplo:
         Smartphone s1 = new Smartphone("4ABS", "Motorola");
         Smartphone s2 = new Smartphone("4ABS", "Motorola");
 

@@ -9,6 +9,8 @@ public class Smartphone {
         this.name = name;
     }
 
+    
+
     public String getName() {
         return name;
     }
