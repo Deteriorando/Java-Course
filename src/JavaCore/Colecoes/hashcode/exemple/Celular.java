@@ -29,6 +29,7 @@ public class Celular {
         return serialNumber != null && serialNumber.equals(celular.serialNumber);
     }
 
+    // Exemplo de implementação.
     @Override
     public int hashCode() {
         return serialNumber == null ? 0 : this.serialNumber.hashCode();
