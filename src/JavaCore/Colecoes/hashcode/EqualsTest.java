@@ -5,11 +5,6 @@ import JavaCore.Colecoes.equals.exemple.Smartphone;
 
 public class EqualsTest {
     public static void main(String[] args) {
-        /* O que é hashcode?
-         * Hash Code é uma implementação de um método que vai dar códigos determinados a um determinado objeto.
-         * Se o equals ele verifica o conteúdo, o Hash code ele dá um código ou etiqueta, como quiser interpretar.
-         * Há varias formas de implementar um código hash em si, vária de cada necessidade de uso.
-         */
 
         Smartphone s1 = new Smartphone("4ABS", "Motorola");
         Smartphone s2 = new Smartphone("4ABS", "Motorola");
