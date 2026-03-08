@@ -22,7 +22,7 @@ public class Celular {
     * 3 - Transitividade: Para x, y, z diferentes de null, se x.equals(y) == true, y.equals(z) == true, então x.equals(z) tem que retornar true.
     * Se você não entendeu sobre transitividade, imagine um triângulo com x, y, z nos seus vértices, o triângulo tem que fechar nos vértices entre ambos.
     * Dito isso, ficaria assim: se x == y e y == z, então x == z.
-    * 4 - Consistente: x.equals(x) sempre retorna true, se x for diferente de null.
+    * 4 - Consistente: os valores não mudaram, o resultado do equals não pode mudar, se obj for diferente de null.
     * 5 - Nulo: Se x.equals(null), então deve sempre retornar falso.
     * */
 
