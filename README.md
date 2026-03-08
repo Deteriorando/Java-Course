@@ -1,7 +1,7 @@
 # Java Course
 
 Olá! Seja bem vindo ao github do Java Course. Neste Github você vai está vendo sobre contéudos de java que estão por ai na internet. Este github vai mostrar sobre muita coisa sobre java de 
-forma documentada e com exemplos fáceis de entender.
+forma documentada e com exemplos fáceis de entender. Este é um github brasileiro, portanto não vamos está abordando assuntos em inglês.
 
 # Fontes
 
