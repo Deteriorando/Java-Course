@@ -1,5 +1,6 @@
 package JavaCore.Colecoes.equals;
 
+import JavaCore.Colecoes.equals.exemple.Celular;
 import JavaCore.Colecoes.equals.exemple.Smartphone;
 
 public class EqualsTest {
@@ -24,11 +25,17 @@ public class EqualsTest {
         */
 
 
-        // exemplo:
+        // exemplo do equals da classe object:
         Smartphone s1 = new Smartphone("4ABS", "Motorola");
         Smartphone s2 = new Smartphone("4ABS", "Motorola");
 
-        System.out.println(s1.equals(s2));
+        System.out.println("Equals da classe object: " + s1.equals(s2));
+
+        //exemplo com equals com método próprio:
+        Celular c1 = new Celular("98JKDS", "Samsung");
+        Celular c2 = new Celular("98JKDS", "Samsung");
+        System.out.println("Equals da própria classe: " + c1.equals(c2));
+
 
 
         // -- Fontes --
